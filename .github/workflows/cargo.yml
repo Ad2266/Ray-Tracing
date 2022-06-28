@@ -42,8 +42,7 @@ jobs:
         name: Checkout 🛎️
       - uses: actions-rs/toolchain@v1
         name: Setup Cargo Toolchain 🛎️
-      - name: Download Dependencies 🛎️
-      
+      - name: Download Dependencies 🛎️      
       - uses: actions-rs/cargo@v1
         name: Build 🔧
         with:
